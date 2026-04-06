@@ -1,6 +1,6 @@
 # B50 Upload API 脚本
 
-一个简单的Python脚本，用于请求 B50 数据上传 API。
+一个简单的Python脚本，用于请求 awmc.cc B50 数据上传 API。
 
 ## 功能
 
@@ -23,9 +23,9 @@
 
 1. 编辑 `.env` 文件，设置以下变量：
    ```
-   FISH_TOKEN=你的_fish_token
-   BEARER_TOKEN=你的_bearer_token
-   LXNS_CODE=你的_lxns_code
+   FISH_TOKEN=你的水鱼Token
+   BEARER_TOKEN=你的awmc.cc Token
+   LXNS_CODE=你的落雪好友码
    ```
 
 ## 使用方法
@@ -47,11 +47,8 @@
 ## 注意事项
 
 - 确保 `.env` 文件中的变量名和值正确。
-- 如果遇到网络问题，请检查 API 地址和认证信息。
 - 脚本会在运行结束后暂停显示结果，按任意键退出。
 
-## API 信息
+## 特别鸣谢
 
-- URL：`https://api.awmc.cc/v1/upload_b50?qr_text={qr_text}&fish_token={fish_token}`
-- 请求方法：GET
-- 请求头：`Authorization: Bearer {bearer_token}`
+@Michaelwucoc API提供
