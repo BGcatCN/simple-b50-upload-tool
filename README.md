@@ -13,7 +13,7 @@
 ## 环境要求
 
 - Windows 操作系统
-- Python 3.13（已包含在项目中）
+- Python 3.13
 
 ## 安装步骤
 
@@ -44,7 +44,6 @@
 - `run.bat`：Windows 批处理文件，用于选择并运行脚本
 - `requirements.txt`：Python 依赖包列表
 - `.env`：环境变量配置文件
-- `venv/`：虚拟环境文件夹，包含 Python 解释器和依赖包
 
 ## 注意事项
 
