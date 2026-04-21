@@ -6,8 +6,10 @@
 ::不用ansi还打不开，行吧，我屈服了哈哈。。。
 ::娘希匹
 
-
-
+::创建虚拟环境，pip自动安装需求库
+python3 -m venv .venv
+call .venv\Scripts\activate.bat
+pip install -r requirements.txt
 
 :menu
 color 07
